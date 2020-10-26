@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dz3lesson</title>
+</head>
+<body>
+	<form accept="#" method="get" class="form_register">
+		<div>
+			<label>Ваше имя
+				<input type="text" placeholder="Введите имя" name="name" >
+			</label>
+			<br>
+			<label>Ваша фамилия	
+				<input type="text" placeholder="Введите фимилию" name="last_name">
+			</label>
+			<br>
+			<label>Ваш email
+				<input type="email" placeholder="Введите email" name="email">
+			</label>
+			<br>
+			<label>Ваша дата рождения
+				<input type="date" name="date">
+			</label>
+			<br>
+			<label>Ваш номер телефона
+				<input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+			</label>
+				<span>Формат ХХХ-ХХХ-ХХХХ</span>
+		</div>
+		<br>
+		<div>Выберите размер
+			<br>
+			<label>
+				<input type="radio" name="size" value="xs">XS
+				<br>
+			</label>
+			<label>
+				<input type="radio" name="size" value="s">S
+				<br>
+			</label>
+			<label>
+				<input type="radio" name="size" value="m">M
+				<br>
+			</label>
+			<label>
+				<input type="radio" name="size" value="l">L
+				<br>
+			</label>
+		</div>
+		<div>Выберите цвет
+			<br>
+			<select name="color">
+				<option value="black">Черный</option>
+				<option value="green">Зеленый</option>
+				<option value="blue">Синий</option>
+				<option value="Rad">Красный</option>
+			</select>
+		</div>
+		<br>
+		<div>Дополнительные опции
+			<br>
+			<label>
+				<input type="checkbox" name="option" value="delivery">Доставка
+				<br>
+			</label>
+			<label>
+				<input type="checkbox" name="option" value="pay">Оплата картой
+				<br>
+			</label>
+			<label>
+				<input type="checkbox" name="option" value="recallme">Перезвоните мне
+			</label>
+		</div>
+		<br>
+		<button>Отправить</button>
+	</form>
+</body>
+</html>
