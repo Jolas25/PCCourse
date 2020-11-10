@@ -13,11 +13,10 @@ body{
 	color: #fff;
 }
 
-.top-text{
+.top-text {
 	display: inline-block;
-	width: 1000px;
-	margin: 25px 325px;
-	
+	margin: 25px auto 25px 7em;
+	box-sizing: border-box;
 	text-transform: capitalize;
 }
 
@@ -107,7 +106,7 @@ body{
 footer{
 	display: inline-block;
 	width: 1000px;
-	margin:  25px 325px;
+	margin:  25px auto 25px 7em;
 	
 }
 
