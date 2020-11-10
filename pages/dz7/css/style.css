@@ -8,7 +8,7 @@ section{
 
 div{
 	width: 500px;
-	line-height: 40px;
+	line-height: 1.5;
 	font-size: 18px;
 	font-family: sans-serif;
 	display: block;
@@ -57,7 +57,12 @@ text-decoration: line-through;
 }
 
 .footer{
+	display: block;
 	color: #E47C7E;
 	background-color: #4A4F56;
 	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
 }
