@@ -14,10 +14,11 @@ body{
 }
 
 .top-text {
-	display: inline-block;
-	margin: 25px auto 25px 7em;
+	display: block;
+	margin:  25px auto 25px;
 	box-sizing: border-box;
 	text-transform: capitalize;
+	text-align: center;
 }
 
 .cities{
@@ -105,8 +106,10 @@ body{
 
 footer{
 	display: inline-block;
-	width: 1000px;
-	margin:  25px auto 25px 7em;
+	max-width: 1000px;
+	width: 60%;
+	margin:  25px auto 25px;
+	text-align: center;
 	
 }
 
