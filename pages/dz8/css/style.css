@@ -104,17 +104,17 @@ body{
 	border-right-width: 5px;
 }
 
-footer{
-	display: inline-block;
-	max-width: 1000px;
-	width: 60%;
-	margin:  25px auto 25px;
-	text-align: center;
+.footer{
+	display: block;
+	margin:  25px 0 25px 7em;
+	
+	
 	
 }
 
 .list-item:hover{
 	opacity: 0.2;
+
 }
 
 
