@@ -1,0 +1,72 @@
+*	{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+section{
+	padding: 15px 50px;
+	padding-left: 75px;
+}
+
+img{
+	width: 70px;
+	height: 70px;
+	z-index: 2;
+	position: absolute;
+}
+
+.conteiner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 800px;
+	border: 25px solid orange;
+
+}
+
+.conteiner-item{
+	background-color: blue;
+	width: 50px;
+	height: 100px;
+	flex: 1 0 12%;
+	display: flex;
+}
+
+.conteiner-item:nth-of-type(even){
+	background-color: red;
+}
+
+.second-line_item:nth-of-type(odd){
+	background-color: red;
+}
+
+.second-line_item:nth-of-type(even){
+	background-color: blue;
+}
+
+.conteiner:before{
+	content: "A B C D E F G H";
+	word-spacing: 80px;
+	position: absolute;
+	top: 20px;
+	left: 145px;
+}
+
+.conteiner:after{
+	content: "1 2 3 4 5 6 7 8";
+	word-spacing: 85px;
+	position: absolute;
+	top: 432px;
+	left: -261px;
+	transform: rotate(-90deg);
+}
+
+.figure{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
