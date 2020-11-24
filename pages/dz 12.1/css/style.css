@@ -1,0 +1,20 @@
+.box{
+	min-height: 100px;
+	margin-bottom: 25px;
+	background-color: #000;
+}
+
+.box1{
+	background-color: red;
+}
+
+.box2{
+	background-color: #08c;
+}
+
+.box3{
+	background-color: #ce3;
+}
+.box-double{
+	min-height: 225px;
+}
