@@ -1,6 +1,6 @@
 
 function fib(n) {
-  let a = 1,
+  let a = 1;
     b = 1;
   for (let i = 3; i <= n; i++) {
     let temp = a + b;
@@ -22,13 +22,13 @@ switch(name){
 			case 'admin':
 			alert('Добро пожаловать');
 			break;
-		case null:
-		alert('Вход отменен');
-		break;
-		default:
-		alert('Пароль не верный');
-		break;
-		}
+			case null:
+			alert('Вход отменен');
+			break;
+			default:
+			alert('Пароль не верный');
+			break;
+			}
 		break;
 	case null:
 		alert('Вход отменен');
@@ -38,14 +38,9 @@ switch(name){
 		break;
 }
 
-//switch(pass){
-//	case 'admin':
-//		alert('Добро пожаловать!');
-//		break;
-//	case null:
-//		alert('Вход отменен');
-//		break;
-//	default:
-//		alert('Пароль не верный!');
-//		break;
-//}
+
+
+var i, x = 0;
+for (i = 1; i <= 100; i++) {
+	x += i;
+	console.log(x) }
