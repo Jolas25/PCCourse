@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(https://dataart.ua/media/2962254/news-star-wars-big-1600x960.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+  	font-weight: 100;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	color: #F4DC32;
+}
+ 
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 150px;
+  left: 755px;
+}
+ 
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #3D3F54;
+  display: inline-block;
+}
+ 
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #A3A3AF;
+  display: inline-block;
+}
+ 
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
